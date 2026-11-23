@@ -13,5 +13,6 @@
 ## 共用工程資料庫（2026-11-23）
 - [V0.1 統一資料庫架構、31 張資料表、施工／試驗／估驗／日誌／照片資料流與測試紀錄](docs/UNIFIED_DATABASE_ARCHITECTURE_V0.1.md)
 - 本次新資料庫的 SQL、初始化程式、空白 SQLite 與測試以獨立套件交付，尚未將套件內所有檔案推送到 GitHub。
-- **[施工批次與施工樁號編碼規格 V0.3（現行規格）](docs/BATCH_STATION_CODE_SPEC_V0.3.md)**：批次＝民國日期7碼＋路線方向車道4碼＋批次流水號3碼（14碼）；施工樁號＝批次＋`-`＋分段流水號3碼（18字元）；內路肩I、外路肩E。
+- **[施工批次與施工樁號編碼規格 V0.4（現行正式規格）](docs/BATCH_STATION_CODE_SPEC_V0.4.md)**：`YYYMMDD-RRDL-BBB-SSS`；批次 `1151123-01S3-001`，分段 `1151123-01S3-001-001`；內路肩 I、外路肩 E。程式與 SQLite 尚待套用及重測。
+- [V0.3 歷史編碼規格](docs/BATCH_STATION_CODE_SPEC_V0.3.md)：已由 V0.4 的分隔式格式取代。
 - [V0.2 歷史規格](docs/BATCH_STATION_CODE_SPEC_V0.2.md)：已被 V0.3 取代，舊版 SQL／Python 尚待跟進修改並重測。
