@@ -16,3 +16,7 @@
 - **[施工批次與施工樁號編碼規格 V0.4（現行正式規格）](docs/BATCH_STATION_CODE_SPEC_V0.4.md)**：`YYYMMDD-RRDL-BBB-SSS`；批次 `1151123-01S3-001`，分段 `1151123-01S3-001-001`；內路肩 I、外路肩 E。程式與 SQLite 尚待套用及重測。
 - [V0.3 歷史編碼規格](docs/BATCH_STATION_CODE_SPEC_V0.3.md)：已由 V0.4 的分隔式格式取代。
 - [V0.2 歷史規格](docs/BATCH_STATION_CODE_SPEC_V0.2.md)：已被 V0.3 取代，舊版 SQL／Python 尚待跟進修改並重測。
+
+## V0.5 初始可執行版本（2026-11-23）
+- [V0.5 工程獨立資料庫開發與測試紀錄](docs/V0.5_IMPLEMENTATION_LOG.md)：一工程一份 SQLite、工程索引、工區／樁號新編碼、Python tkinter 初始介面、7 項測試。
+- V0.5 完整程式目前以本次對話中的 ZIP 交付；**GitHub 目前只有開發紀錄，尚未同步所有 Python／SQL 原始碼**。
